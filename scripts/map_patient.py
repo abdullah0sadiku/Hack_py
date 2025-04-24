@@ -22,7 +22,7 @@ def map_patient(row):
     }
 
 def main():
-    df = pd.read_csv("csv/patients.csv")
+    df = pd.read_csv("patients.csv")
     bundle = {
         "resourceType": "Bundle",
         "type": "collection",
